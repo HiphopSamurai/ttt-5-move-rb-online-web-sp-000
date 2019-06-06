@@ -8,7 +8,8 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(move)
-  new_move = move.to_i - 1
+  new_move = move.to_i
+  new_move -= 1
   return new_move
 end
 
